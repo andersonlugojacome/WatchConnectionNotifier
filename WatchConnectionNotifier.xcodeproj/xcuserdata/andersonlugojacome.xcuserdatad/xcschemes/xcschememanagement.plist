@@ -7,12 +7,45 @@
 		<key>WatchConnectionNotifier Watch App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>WatchConnectionNotifier.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0B33AF7E2CF7A7E800F75499</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B33AF8E2CF7A7EC00F75499</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B33AF982CF7A7EC00F75499</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B33AFA42CF7A7EC00F75499</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B33AFB62CF7A7ED00F75499</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B33AFC02CF7A7ED00F75499</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

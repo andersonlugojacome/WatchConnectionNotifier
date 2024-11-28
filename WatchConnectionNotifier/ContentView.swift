@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var connectivityManager = WatchConnectivityManager.shared
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Estado de conexión 1")
+            Text(connectivityManager.isReachable ? "Conectado" : "Desconectado")
+                .foregroundColor(connectivityManager.isReachable ? .green : .red)
+                .font(.title)
+            Image(systemName: connectivityManager.isReachable ? "wifi" : "wifi.slash")
+                            .imageScale(.large)
+                            .foregroundStyle(.tint)
+
+            Spacer()
         }
         .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
